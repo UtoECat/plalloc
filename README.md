@@ -1,15 +1,16 @@
 # plalloc
 PLALLOC - dynamic linear pool allocator, based on unrolled linked list
 
-from [allocator source file](plalloc.h) : ```
+from [allocator source file](plalloc.h) :
+```
  * This allocator is my only work, that was evolved during years and years in
  * my head and in my different projects, and now... it's here. Headeronly,
  * easy to add in project and use, dependent only on the stdlib and 
  * c89threads(optional), dynamic linear allocator lib :D
 
-# commenntary : now i know that this is similar with how unrolled linked list is working...
-# anyways, this may be not the perfect, but good enough implementation. Some uncompatability eith C89
-# may be optionally fixed too
+ # commenntary : now i know that this is similar with how unrolled linked list is working...
+ # anyways, this may be not the perfect, but good enough implementation. Some uncompatability eith C89
+ # may be optionally fixed too
 
  * To add this in your project, you may also need to create empty .c file with 
  * this content : ```
