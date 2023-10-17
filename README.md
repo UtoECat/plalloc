@@ -9,7 +9,7 @@ from [allocator source file](plalloc.h) :
  * c89threads(optional), dynamic linear allocator lib :D
 
  # commenntary : now i know that this is similar with how unrolled linked list is working...
- # anyways, this may be not the perfect, but good enough implementation. Some uncompatability eith C89
+ # anyways, this may be not the perfect, but good enough implementation. Some uncompatability with C89
  # may be optionally fixed too
 
  * To add this in your project, you may also need to create empty .c file with 
@@ -18,7 +18,7 @@ from [allocator source file](plalloc.h) :
  * #include "plalloc.h"
  * ```
  * Do this only once. You may also come with different approaches, like include
- * this text in exact same rder directly to your main.c, or miniaudio.c... Does
+ * this text in exact same order directly to your main.c, or miniaudio.c... Does
  * not matter.
  *
  * This project activates all SANITY_CHECK() macro, if you define PLALLOC_DEBUG
