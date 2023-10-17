@@ -49,3 +49,5 @@ from [allocator source file](plalloc.h) :
  * must not be setted to ultra crazy low, or ultra crazy high values, since allcator
  * code does not make checks for that.
 ```
+## may be an issue
+this allocator is generic, that's why it adds +8 bytes to all your structures you allocate. Altrough, while this is way better than pointer + flags in generic heap allocators, it's stil may be a lot in embedded systems. For this cases C++ with inheritance may've benn better.... But... \-(0_0)-/
